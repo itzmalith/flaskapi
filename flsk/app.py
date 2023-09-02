@@ -8,6 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, resources={r"/predict": {"origins": "*"}})  
 
+
 # Load the trained model
 model = joblib.load('/Users/malithlekamge/Documents/ATLINKANGULAR/AUTH/flsk/heart_disease_model.pkl')
 
