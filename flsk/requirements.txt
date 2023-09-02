@@ -11,7 +11,7 @@ MarkupSafe==1.1.1
 numpy
 pytz==2020.1
 pywatchman==1.4.1
-scikit-learn==1.3.0
+scikit-learn
 scipy==1.11.2
 six==1.15.0
 SQLAlchemy==1.3.18
