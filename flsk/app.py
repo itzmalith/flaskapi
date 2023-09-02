@@ -10,7 +10,7 @@ CORS(app, resources={r"/predict": {"origins": "*"}})
 
 
 # Load the trained model
-model = joblib.load('/Users/malithlekamge/Documents/ATLINKANGULAR/AUTH/flsk/heart_disease_model.pkl')
+model = joblib.load('heart_disease_model.pkl')
 
 # Define a route for prediction
 @app.route('/predict', methods=['POST'])
